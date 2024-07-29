@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "inter", sans-serif;
+    box-sizing: border-box;
+}
+
+.containerMain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: gray;
+}
+
+.FormMain{
+    background: ghostwhite;
+    margin-bottom: 50px;
+    padding: 40px 55px 70px 55px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.FormMain h1{
+    font-size: 10px;
+    color: rgb(211, 211, 211);
+}
+
+.inputbox{
+    font-size: 10px;
+    padding-top: 20px;
+}
+
+.inputbox input{
+    font-size: 11px;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(209, 209, 209);
+    padding: 15px;
+    margin-top: 10px;   
+}
+
+.radioMain{
+    margin-top: 20px;
+}
+
+.answer-radio input{
+    margin-top: 20px;
+}
+
+.answer-radio label{
+    margin-left: 10px;
+}
+
+.checkboxMain{
+    margin-top: 20px;
+}
+
+.answer-checkbox input{
+    margin-top: 20px;
+}
+
+.answer-checkbox label{
+    margin-left: 10px;
+}
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-top: 20px;
+    
+}
+
+button {
+    font-size: 12px;
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    
+}
+
+.button-Cancelar{
+    background: transparent;
+    border: 1px solid rgb(163, 163, 255);
+    color:rgb(163, 163, 255) ;
+
+}
+
+.button-enviar{
+    background-color:rgb(163, 163, 255) ;
+    color: white;
+    border: none;
+}
+
+
+/*faltan los required en los radio y checkbox, y vericar si falta algo mas*/
+/*aplicar en los botones un nth-child () y modificar los botones cada uno*/
